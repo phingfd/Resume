@@ -256,6 +256,46 @@
     <!-- Education History -->
     <hr class="border-t border-gray-400 my-6 mx-auto w-full" />
 
-    <div></div>
+    <div class="max-w-5xl mx-auto py-5 text-sm text-gray-800 font-sans">
+      <h2 class="text-2xl font-bold border-b border-gray-300 pb-2 mb-6">
+        Education History
+      </h2>
+      <div class="mb-6">
+        <div class="flex justify-between items-start">
+          <div>
+            <h2 class="text-base font-bold">Bachelor of Science in Information Technology</h2>
+            <p class="text-gray-600 text-sm">STI College General Santos City</p>
+          </div>
+          <span>2019 - 2023</span>
+        </div>
+      </div>
+      <div class="mb-6">
+        <div class="flex justify-between items-start">
+          <div>
+            <h2 class="text-base font-bold">Senior High Grade</h2>
+            <p class="text-gray-600 text-sm">Labangal General Santos City</p>
+          </div>
+          <span>2017 - 2019</span>
+        </div>
+      </div>
+      <div class="mb-6">
+        <div class="flex justify-between items-start">
+          <div>
+            <h2 class="text-base font-bold">Secondary Education</h2>
+            <p class="text-gray-600 text-sm">Lawang Bato Valenzuela City</p>
+          </div>
+          <span>2013 - 2017</span>
+        </div>
+      </div>
+      <div class="mb-6">
+        <div class="flex justify-between items-start">
+          <div>
+            <h2 class="text-base font-bold">Primary Education</h2>
+            <p class="text-gray-600 text-sm">Balunto Elementary School</p>
+          </div>
+          <span>2007 - 2013 changes</span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
