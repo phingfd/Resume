@@ -326,7 +326,7 @@
   </div>
 
   <!-- clone -->
-  <div class="bg-gray-100 p-4 w-full hidden" style="width: 8.5in; height: 13in">
+  <div class=" bg-gray-100 p-4 w-full hidden" style="width: 8.5in; height: 13in">
     <!-- Profile Image Centered -->
     <div class="relative flex justify-center mb-4">
       <img
@@ -579,6 +579,7 @@
 </template>
 
 <script setup>
+
 function printDocument() {
   // Select the hidden section you want to print
   const container = document
@@ -597,7 +598,6 @@ function printDocument() {
   const printWindow = window.open("", "", "width=850,height=1300");
 
   printWindow.document.write(`
-  
         <style>
           @page {
             size: 8.5in 13in;
@@ -671,12 +671,13 @@ function printDocument() {
 
         </style>
       <body>
+        <title stlye="hidden">Resume</title>
         <div class="print-container">
           ${container.outerHTML}
         </div>
       </body>
-  `);
-
+  `)
+  
   // Ensure the print window content is ready before printing
   printWindow.document.close();
   printWindow.onload = () => {
@@ -684,6 +685,7 @@ function printDocument() {
     printWindow.print(); // Trigger the print dialog
     printWindow.close(); // Close the print window after printing
   };
+  
   
 }
 </script>
