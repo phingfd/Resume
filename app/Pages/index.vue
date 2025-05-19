@@ -684,5 +684,6 @@ function printDocument() {
     printWindow.print(); // Trigger the print dialog
     printWindow.close(); // Close the print window after printing
   };
+  
 }
 </script>
